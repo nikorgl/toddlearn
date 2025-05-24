@@ -10,7 +10,7 @@ def create_users(apps, schema_editor):
     User.objects.create_user(username='vara'     , password='Varvargl13'  , first_name='Варя')
     User.objects.create_user(username='klim'     , password='Kremengl20'  , first_name='Клим')
     User.objects.create_user(username='alena'    , password='alena'       , first_name='Alena')
-    User.objects.create_user(username='anna'     , password='Annetka16'   , first_name='Аня')
+    User.objects.create_user(username='anna'     , password='anna'     , first_name='Аня')
 
 class Migration(migrations.Migration):
     dependencies = [
